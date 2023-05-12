@@ -2,7 +2,7 @@
 
 import subprocess
 import re
-import random
+import random as r
 from argparse import ArgumentParser
 from logo import logo
 
@@ -32,8 +32,10 @@ interface = arg.interface
 new_mac = arg.new_mac
 
 if new_mac == "r":
-    mac_list = ["00:11:22:33:44:55", "00:11:24:65:44:32", "00:11:23:35:44:77"]
-    new_mac = random.choice(mac_list)
+    x = r.randint(0, 9)
+    y = r.randint(0, 9)
+    z = r.randint(0, 9)
+    new_mac = f"00:{x}{y}:{y}{z}:{z}{x}:{y}{x}:{z}{y}"
 
 current_mac = get_mac(interface)
 
