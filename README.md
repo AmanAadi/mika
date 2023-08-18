@@ -3,7 +3,7 @@ Mika is a simple and powerful mac spoofing tool. It is written in python3.
 <br/>
 Created by Aman Aadi | www.amanaadi.com
 
-![mika-logo](https://github.com/AmanAadi/mika/assets/129376933/9ac11511-5066-478f-8d04-1e0879af2661)
+![mika-logo](https://github.com/AmanAadi/mika/assets/129376933/098b4e61-ad6d-4c80-ac5f-ff8ef8bde594)
 
 
 
